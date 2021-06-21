@@ -1,6 +1,8 @@
 # BMSTESTER_INA3221
-Using two INA3221 to test balance of 4S BMS
+Using two INA3221 to test balance of a 4S BMS
 
-With the Beastdevices library, I have learned how to manage to similar I2C devices (INA3221) with was a bit harder to find and to understand the way it works.
+With the Beastdevices library, I found how to manage to similar I2C devices (INA3221) changing the address of each one soldering the jumpers.
 
-All is explained in the code.
+I couldn't find many info about how to program it without a multiplexor. 
+
+All is explained in the code. I hope it's enought. 
