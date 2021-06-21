@@ -6,3 +6,10 @@ With the Beastdevices library, I found how to manage to similar I2C devices (INA
 I couldn't find many info about how to program it without a multiplexor. 
 
 All is explained in the code. I hope it's enought. 
+
+Hardware used:
+
+1 - ESP32-WROOM-U
+2 - INA3221
+1 - OLED SCREEN 0.96 IN
+
