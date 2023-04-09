@@ -54,6 +54,7 @@ void loop()
   float current[4]; //create 4 values for current
   float voltage[4]; //create 4 values for voltage
   float Vref[3]; //create 3 values for adjust the voltage of each cell (mind each channel measure the total amount of cells)
+    //mind the max Voltage allowed by INA3221 is 26V. You cannot use this for more than 6S Li-Ion or 7S LPF (with a third INAXXXX)
 
   current[0] = ina3221_1.getCurrent(INA3221_CH1); //here we get the balancing current from the BMS of first cell connected to the first channel of the first INA3221
   voltage[0] = ina3221_1.getVoltage(INA3221_CH1); //here we get the voltage of first cell connected to the first channel of the first INA3221
