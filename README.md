@@ -9,7 +9,7 @@ All is explained in the code. I hope it's enought.
 
 Hardware used:
 
-1 - ESP32-WROOM-U
-2 - INA3221
-1 - OLED SCREEN 0.96 IN
+1ea- ESP32-WROOM-U
+2eas- INA3221
+1ea - OLED SCREEN 0.96 IN
 
